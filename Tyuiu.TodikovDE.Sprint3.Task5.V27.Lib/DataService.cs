@@ -8,9 +8,9 @@ namespace Tyuiu.TodikovDE.Sprint3.Task5.V27.Lib
             double sumSeries = 0;
             for (int i = startValue1; i <= startValue2; i++)
             {
-                for (int j = startValue2; j <= stopValue2; j++)
+                for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    sumSeries += (Math.Pow(j, x)) / Math.Cos(j);
+                    sumSeries += (Math.Pow(k, x)) / Math.Cos(k);
                 }
             }
             return Math.Round(sumSeries,3);
