@@ -34,6 +34,7 @@ namespace Tyuiu.TodikovDE.Sprint3.Task5.V27
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Сумма ряда = " + ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2));
+
         }
 
     }
