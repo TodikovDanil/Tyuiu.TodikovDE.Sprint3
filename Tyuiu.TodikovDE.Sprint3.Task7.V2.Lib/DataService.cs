@@ -12,7 +12,7 @@ namespace Tyuiu.TodikovDE.Sprint3.Task7.V2.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0)
+                if (x - 0.7 == 0)
                 {
                     y = 0;
                     valueArray[count] = y;
@@ -20,7 +20,7 @@ namespace Tyuiu.TodikovDE.Sprint3.Task7.V2.Lib
                 }
                 else
                 {
-                    y = Math.Round((Math.Cos(x) / x - 0.7) - (Math.Sin(x) * 12 * x) + 2, 2);
+                    y = Math.Round((Math.Cos(x) / (x - 0.7)) - (Math.Sin(x) * 12 * x) + 2, 2);
                     valueArray[count] = y;
                     count++;
                 }
